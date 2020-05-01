@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: url(img/laugh-neon-light-signage-turned-on-1115680.jpg);
+  background-size: cover;
+}
+
+.social {
+  color: white;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.social__item {
+  width: 55px;
+  height: 55px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+
+.facebook:hover {
+  border-color: #ff00f2;
+  box-shadow: 0 0 25px #ff00f2;
+  color: #ff00f2;
+}
+
+.instagram:hover {
+  border-color: #ff6a00;
+  box-shadow: 0 0 25px #ff6a00;
+  color: #ff6a00;
+}
+
+.linkedin:hover {
+  border-color: #7bff00;
+  box-shadow: 0 0 25px #7bff00;
+  color: #7bff00;
+}
+
+.twitter:hover {
+  border-color: #00aced;
+  box-shadow: 0 0 25px #00aced;
+  color: #00aced;
+}
+
+.whatsapp:hover {
+  border-color: #4dc247;
+  box-shadow: 0 0 25px #4dc247;
+  color: #4dc247;
+}
+
+.youtube:hover {
+  border-color: #ff2600;
+  box-shadow: 0 0 25px #ff2600;
+  color: #ff2600;
+}
+
+.telegram:hover {
+  border-color: #00eaff;
+  box-shadow: 0 0 25px #00eaff;
+  color: #00eaff;
+}
+
+.github:hover {
+  border-color: #fff346;
+  box-shadow: 0 0 25px #fff346;
+  color: #fff346;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
