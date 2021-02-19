@@ -1,2 +1,1 @@
-# Neon icons
-https://eduard-mychka.github.io/neon-icons/.
+# [Demo Neon Icons](https://eduard-mychka.github.io/neon-icons/)
